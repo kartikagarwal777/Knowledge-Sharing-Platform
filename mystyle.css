@@ -1,0 +1,100 @@
+body{
+	background-image: url("images/room.jpg");
+	background-repeat:no-repeat;
+    background-size:100%;
+	font: normal 16px/normal "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	 background-attachment: fixed; 
+}
+#container1{
+	background-color:rgba(235, 217, 198,0.8);
+    width:300px;
+	height:400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 125px;
+    padding:3px; 
+    border: solid 4px #58658A;
+    border-radius: 12px;	
+}
+#container1 h1{
+color: rgba(17,145,224,1);
+}
+#container1 input{
+  margin-top: 20px;
+  height: 29px;   
+  padding:2px;
+  width:200px; 
+  display: inline-block;  
+  box-sizing: content-box;
+  border: 1px solid #b7b7b7;
+  border-radius: 3px;  
+  	font: normal 16px/normal "Palatino Linotype", "Book Antiqua", Palatino, serif;
+   box-shadow: 0 0 6px 2px rgba(0,0,0,0.5) ;
+  text-shadow: 4px 4px 6px rgba(0,0,0,0.5) , 1px 1px 0 rgba(255,255,255,0.66) ;
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1); 
+}
+input:focus:invalid { /* when a field is considered invalid by the browser */
+    background: #fff url(images/invalid.png) no-repeat 97% center;
+    background-clip:content-box;
+    box-shadow: 0 0 5px #cc0000;                
+    border-color: #ff6666
+        
+}
+#container1 button{
+
+display:block;
+background-color:#ffbb99;
+height:38px;
+width:200px;
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+margin-top:40px;
+font-size:100%;
+	font: normal 16px/normal "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+
+#container1 button:hover
+{
+    background: #ccffcc;
+	font: normal 16px/normal "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+#er {
+	
+	color:#77ff33;
+	position:absolute;
+  margin-left:-200px;
+  bottom:100px;
+  left:50%;
+ font-size:150%;
+	}
+
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+     background-color: rgba(51, 51, 51,0.6)
+	
+}
+li {
+    float: left;
+	 border-right:1px solid #bbb;
+	 
+}
+
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+	
